@@ -12,7 +12,7 @@ Technologies Used:
 
 
 
-Used the pretrained model resnet-152 and applied fine tuning in order to order to be able to tell the car model/make/year.
+Used the pretrained model resnet-152 and applied fine tuning in order to be able to tell the car model/make/year.
 
 
 
