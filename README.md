@@ -26,6 +26,12 @@ Add an additional pixel border around the image to preserve the original image s
 
 ![Semantic description of image](https://miro.medium.com/max/790/1*nYf_cUIHFEWU1JXGwnz-Ig.gif "Image Title")
 
+CNN consists of a convolutional layer followed by a pooling layer. At the end, you can use general fully connected layers, which are just flattened pooling layers and eventually generate a result.
+
+![Semantic description of image](https://it.mathworks.com/discovery/convolutional-neural-network-matlab/_jcr_content/mainParsys3/discoverysubsection_/mainParsys3/columns/b202664f-91e3-4c3e-8e3e-a299d0568e0b/image_copy.adapt.full.medium.jpg/1658339697921.jpg "Image Title")
+
+
+
 
 
 
