@@ -7,7 +7,6 @@ Technologies Used:
 - [matplotlib](http://matplotlib.org/)
 - [Pytorch](https://pytorch.org)
 - [Google Colaboratory](https://colab.research.google.com)
-- [CNNs]
 - [ResNet152](https://pytorch.org/hub/pytorch_vision_resnet/)
 
 
@@ -20,6 +19,12 @@ Recently, convolutional neural networks achieve impressive results on a wide ran
 Convolutional Neural Networks (CNNs) are at the heart of most CV applications. CNNs use the convolution operation to transform input images into outputs. A single step of convolution multiplies and sums the pixel values of an image with the values of a filter. This filter can be of shape 3x3. Next, the filter is shifted to a different position and the convolutional step is repeated until all Pixels were processed at least once. The resulting matrix eventually detects ***edges*** or transitions between dark and light colors and eventually more complex forms. The more filters you apply, the more details the CNN is capable to recognize.
 
 ![Semantic description of image](https://miro.medium.com/max/488/1*4h_J0Zpx93_sFHKxWUoHAw.gif "Image Title")
+
+Horizontal edge detection works by creating a horizontal edge in the filter and vice versa for vertical edges. The weights for edge filter detection can be learned through backpropagation instead of manually coding the values because images generally have many complex edges.
+
+Add an additional pixel border around the image to preserve the original image size. This helps to prevent shrinking the input through convolutional filtering. “Valid” padding means that you use zero padding and the size of the image shrinks. “Same” padding adds as much padding as is needed to keep the dimension of the output equal to the input.
+
+![Semantic description of image](https://miro.medium.com/max/790/1*nYf_cUIHFEWU1JXGwnz-Ig.gif "Image Title")
 
 
 
