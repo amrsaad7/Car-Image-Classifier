@@ -1,14 +1,15 @@
 
 # Car Image Classifier
 
-
-
 Technologies Used:
 
 - [NumPy](http://www.numpy.org/)
 - [matplotlib](http://matplotlib.org/)
 - [Pytorch](https://pytorch.org)
 - [Google Colaboratory](https://colab.research.google.com)
+- [CNNs]
+- [ResNet152](https://pytorch.org/hub/pytorch_vision_resnet/)
+
 
 # Introduction
 The project mainly aims to classify car pictures, using ***CNN-based*** approach. 
