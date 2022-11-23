@@ -28,7 +28,7 @@ Add an additional pixel border around the image to preserve the original image s
 
 CNN consists of a convolutional layer followed by a pooling layer. At the end, you can use general fully connected layers, which are just flattened pooling layers and eventually generate a result.
 
-![Semantic description of image](https://www.researchgate.net/profile/Qichang-Hu/publication/316027349/figure/fig2/AS:484079566102531@1492424970480/Sample-images-from-the-CarFlag-563-dataset-captured-by-surveillance-cameras-in-various.png "Image Title")
+![Semantic description of image](https://miro.medium.com/max/1400/1*XbuW8WuRrAY5pC4t-9DZAQ.jpeg "Image Title")
 
 #Related work and another approaches.
 
