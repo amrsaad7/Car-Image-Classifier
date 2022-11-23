@@ -13,10 +13,13 @@ Technologies Used:
 # Introduction
 The project mainly aims to classify car pictures, using ***CNN-based*** approach. 
 ![Semantic description of image](https://miro.medium.com/max/1204/1*TVu5hyywTrUsCAkfJbVHQw.png "Image Title")
+Recently, convolutional neural networks achieve impressive results on a wide range of image classification tasks. CNN-based approaches use dominant CNNs as the main framework for the fine-grained classification.
 
-Recently, convolutional neural networks achieve impressive results on a wide range of image classification tasks. CNN-based approaches use dominant CNNs as the main framework for the fine-grained classification.  
+Convolutional Neural Networks (CNNs) are at the heart of most CV applications. CNNs use the convolution operation to transform input images into outputs. A single step of convolution multiplies and sums the pixel values of an image with the values of a filter. This filter can be of shape 3x3. Next, the filter is shifted to a different position and the convolutional step is repeated until all Pixels were processed at least once. The resulting matrix eventually detects ***edges*** or transitions between dark and light colors and eventually more complex forms. The more filters you apply, the more details the CNN is capable to recognize.
 
-Used the pretrained model resnet-152 and applied fine tuning to be able to predict the car model/make/year.
+![Semantic description of image](https://miro.medium.com/max/488/1*4h_J0Zpx93_sFHKxWUoHAw.gif "Image Title")
+
+
 
 
 
