@@ -1,15 +1,6 @@
 
 # Car Image Classifier
 
-Technologies Used:
-
-- [NumPy](http://www.numpy.org/)
-- [matplotlib](http://matplotlib.org/)
-- [Pytorch](https://pytorch.org)
-- [Google Colaboratory](https://colab.research.google.com)
-- [ResNet152](https://pytorch.org/hub/pytorch_vision_resnet/)
-
-
 # Introduction
 Image classification is assigning a class or label to an image while considering that each imgae can only have one class/label. in this case it's car pictures where the model/make/year are the label of each car image. There are a lot of approaches when it comes to Image classification however in this project CNNs apprach will be mainly used in this classification task. Convolutional neural networks(CNNs) achieved impressive results on a wide range of image classification tasks. CNN-based approaches use dominant CNNs as the main framework for the fine-grained classification. what makes it a strong candidate to use in this project where the main goal is to classify cars by picture.
 
@@ -59,3 +50,13 @@ Stanford University cars dataset. The Cars dataset contains 16,185 images of 196
 
 ![Semantic description of image](http://ai.stanford.edu/~jkrause/cars/class_montage.jpg "Image Title")
 http://ai.stanford.edu/~jkrause/cars/car_dataset.html
+
+Technologies Used & references:
+- [NumPy](http://www.numpy.org/)
+- [matplotlib](http://matplotlib.org/)
+- [Pytorch](https://pytorch.org)
+- [Google Colaboratory](https://colab.research.google.com)
+- [ResNet](https://pytorch.org/hub/pytorch_vision_resnet/)
+- https://medium.com/machine-learning-world/convolutional-neural-networks-for-all-part-ii-b4cb41d424fd
+- http://ai.stanford.edu/~jkrause/cars/car_dataset.html
+- https://towardsdatascience.com/review-resnet-winner-of-ilsvrc-2015-image-classification-localization-detection-e39402bfa5d8
