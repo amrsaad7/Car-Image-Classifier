@@ -30,9 +30,9 @@ CNN consists of a convolutional layer followed by a pooling layer. At the end, y
 
 ![Semantic description of image](https://miro.medium.com/max/1400/1*XbuW8WuRrAY5pC4t-9DZAQ.jpeg "Image Title")
 
-#Related work and another approaches.
+# Related work and another approaches.
 
-##texture feature-based approaches:
+## texture feature-based approaches:
 
 
 ![Semantic description of image](https://www.researchgate.net/profile/Qichang-Hu/publication/316027349/figure/fig2/AS:484079566102531@1492424970480/Sample-images-from-the-CarFlag-563-dataset-captured-by-surveillance-cameras-in-various.png "Image Title")
