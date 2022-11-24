@@ -11,7 +11,7 @@ Technologies Used:
 
 
 # Introduction
-This project mainly aims to classify car pictures using ***CNN-based*** approach and Stanford Car Dataset. convolutional neural networks achieved impressive results on a wide range of image classification tasks. CNN-based approaches use dominant CNNs as the main framework for the fine-grained classification. 
+Convolutional neural networks achieved impressive results on a wide range of image classification tasks. CNN-based approaches use dominant CNNs as the main framework for the fine-grained classification. what makes it a strong candidate to use in this project where the main goal is to classify cars by picture.
 
 ![Semantic description of image](https://miro.medium.com/max/1204/1*TVu5hyywTrUsCAkfJbVHQw.png "Image Title")
 
@@ -30,13 +30,16 @@ CNN consists of a convolutional layer followed by a pooling layer. At the end, y
 
 ![Semantic description of image](https://miro.medium.com/max/1400/1*XbuW8WuRrAY5pC4t-9DZAQ.jpeg "Image Title")
 
-## Related work and another approaches.
+## Related work and other approaches.
 
 ### texture feature-based approaches:
 The texture feature-based approaches are designed for traffic monitoring using fixed surveillance cameras. These approaches are limited to the fine-grained classification of frontal car images.
 
-![Semantic description of image](https://www.researchgate.net/profile/Qichang-Hu/publication/316027349/figure/fig2/AS:484079566102531@1492424970480/Sample-images-from-the-CarFlag-563-dataset-captured-by-surveillance-cameras-in-various.png "Image Title")
+### 3D representation-based approaches:
+3D representation-based approaches are able to handle car images with unconstrained poses and multiple viewpoints.
 
+
+In this project mainly aims to classify car pictures using ***CNN-based*** approach and Stanford Car Dataset. for the CNN I used the pre-trained ResNet152
 
 
 
