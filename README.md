@@ -16,6 +16,17 @@ Convolutional neural networks achieved impressive results on a wide range of ima
 ![Semantic description of image](https://miro.medium.com/max/1204/1*TVu5hyywTrUsCAkfJbVHQw.png "Image Title")
 
 
+
+## Related work and approaches.
+
+### texture feature-based approaches:
+The texture feature-based approaches are designed for traffic monitoring using fixed surveillance cameras. These approaches are limited to the fine-grained classification of frontal car images.
+
+### 3D representation-based approaches:
+3D representation-based approaches are able to handle car images with unconstrained poses and multiple viewpoints.
+
+### Convolutional Neural Networks.
+
 Convolutional Neural Networks (CNNs) are at the heart of most CV applications. CNNs use the convolution operation to transform input images into outputs. A single step of convolution multiplies and sums the pixel values of an image with the values of a filter. This filter can be of shape 3x3. Next, the filter is shifted to a different position and the convolutional step is repeated until all Pixels were processed at least once. The resulting matrix eventually detects ***edges*** or transitions between dark and light colors and eventually more complex forms. The more filters you apply, the more details the CNN is capable to recognize.
 
 ![Semantic description of image](https://miro.medium.com/max/488/1*4h_J0Zpx93_sFHKxWUoHAw.gif "Image Title")
@@ -29,17 +40,6 @@ Add an additional pixel border around the image to preserve the original image s
 CNN consists of a convolutional layer followed by a pooling layer. At the end, you can use general fully connected layers, which are just flattened pooling layers and eventually generate a result.
 
 ![Semantic description of image](https://miro.medium.com/max/1400/1*XbuW8WuRrAY5pC4t-9DZAQ.jpeg "Image Title")
-
-## Related work and other approaches.
-
-### texture feature-based approaches:
-The texture feature-based approaches are designed for traffic monitoring using fixed surveillance cameras. These approaches are limited to the fine-grained classification of frontal car images.
-
-### 3D representation-based approaches:
-3D representation-based approaches are able to handle car images with unconstrained poses and multiple viewpoints.
-
-<!-- blank line -->
-
 
 In this project mainly aims to classify car pictures using ***CNN-based*** approach and Stanford Car Dataset. for the CNN I used the pre-trained ResNet152
 
