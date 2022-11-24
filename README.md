@@ -42,7 +42,7 @@ The greatest advantages of using convolutions are parameter sharing and sparsity
 
 ![Semantic description of image](https://miro.medium.com/max/1400/1*XbuW8WuRrAY5pC4t-9DZAQ.jpeg "Image Title")
 
-In this project mainly aims to classify car pictures using ***CNN-based*** approach and Stanford Car Dataset. The the pre-trained ResNet152 as the CNN to classify images.
+This project mainly aims to classify car pictures using ***CNN-based*** approach and Stanford Car Dataset. The pre-trained ResNet152 as the CNN to classify images.
 
 ## ResNet.
 
