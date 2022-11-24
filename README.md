@@ -38,6 +38,8 @@ The texture feature-based approaches are designed for traffic monitoring using f
 ### 3D representation-based approaches:
 3D representation-based approaches are able to handle car images with unconstrained poses and multiple viewpoints.
 
+<!-- blank line -->
+
 
 In this project mainly aims to classify car pictures using ***CNN-based*** approach and Stanford Car Dataset. for the CNN I used the pre-trained ResNet152
 
