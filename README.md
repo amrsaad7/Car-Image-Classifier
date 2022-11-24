@@ -11,7 +11,7 @@ Technologies Used:
 
 
 # Introduction
-Convolutional neural networks achieved impressive results on a wide range of image classification tasks. CNN-based approaches use dominant CNNs as the main framework for the fine-grained classification. what makes it a strong candidate to use in this project where the main goal is to classify cars by picture.
+Image classification is assigning a class or label to an image while considering that each imgae can only have one class/label. in this case it's car pictures where the model/make/year are the label of each car image. There are a lot of approaches when it comes to Image classification however in this project CNNs apprach will be mainly used in this classification task. Convolutional neural networks(CNNs) achieved impressive results on a wide range of image classification tasks. CNN-based approaches use dominant CNNs as the main framework for the fine-grained classification. what makes it a strong candidate to use in this project where the main goal is to classify cars by picture.
 
 ![Semantic description of image](https://miro.medium.com/max/1204/1*TVu5hyywTrUsCAkfJbVHQw.png "Image Title")
 
