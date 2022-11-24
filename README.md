@@ -11,7 +11,7 @@ Technologies Used:
 
 
 # Introduction
-The project mainly aims to classify car pictures using ***CNN-based*** approach, convolutional neural networks achieve impressive results on a wide range of image classification tasks. CNN-based approaches use dominant CNNs as the main framework for the fine-grained classification. 
+This project mainly aims to classify car pictures using ***CNN-based*** approach and Stanford Car Dataset. convolutional neural networks achieved impressive results on a wide range of image classification tasks. CNN-based approaches use dominant CNNs as the main framework for the fine-grained classification. 
 
 ![Semantic description of image](https://miro.medium.com/max/1204/1*TVu5hyywTrUsCAkfJbVHQw.png "Image Title")
 
@@ -33,7 +33,7 @@ CNN consists of a convolutional layer followed by a pooling layer. At the end, y
 ## Related work and another approaches.
 
 ### texture feature-based approaches:
-
+The texture feature-based approaches are designed for traffic monitoring using fixed surveillance cameras. These approaches are limited to the fine-grained classification of frontal car images.
 
 ![Semantic description of image](https://www.researchgate.net/profile/Qichang-Hu/publication/316027349/figure/fig2/AS:484079566102531@1492424970480/Sample-images-from-the-CarFlag-563-dataset-captured-by-surveillance-cameras-in-various.png "Image Title")
 
