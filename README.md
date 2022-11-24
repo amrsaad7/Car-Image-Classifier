@@ -25,7 +25,7 @@ The texture feature-based approaches are designed for traffic monitoring using f
 ### 3D representation-based approaches:
 3D representation-based approaches are able to handle car images with unconstrained poses and multiple viewpoints.
 
-### Convolutional Neural Networks.
+### Convolutional Neural Networks(CNNs).
 
 Convolutional Neural Networks (CNNs) are at the heart of most CV applications and the approach that will be used in this project. CNNs use the convolution operation to transform input images into outputs. A single step of convolution multiplies and sums the pixel values of an image with the values of a filter. This filter can be of shape 3x3. Next, the filter is shifted to a different position and the convolutional step is repeated until all Pixels were processed at least once. The resulting matrix eventually detects ***edges*** or transitions between dark and light colors and eventually more complex forms. The more filters you apply, the more details the CNN is capable to recognize.
 
@@ -42,11 +42,14 @@ The greatest advantages of using convolutions are parameter sharing and sparsity
 
 ![Semantic description of image](https://miro.medium.com/max/1400/1*XbuW8WuRrAY5pC4t-9DZAQ.jpeg "Image Title")
 
-This project mainly aims to classify car pictures using ***CNN-based*** approach and Stanford Car Dataset. The pre-trained ResNet152 as the CNN to classify images.
+There are some fomaous and widly used pre-trained netwrok structures like LeNet-5, AlexNet, and VGG. LeNet-5 used a conv-avgpool-conv-avgpool-fc-fc structure, shrinking the size of the image while increasing the filter dimensions. AlexNet is longer and much larger in terms of parameters. VGG really simplifies the architecture because it always uses a 3x3 filter and max pool with stride 2x2 and eventually becomes the largest network. There is also residual networks(ResNet) and it is actually the pretrained model used in this project.
 
 ## ResNet.
+Resnet allow you to train very deep networks. An input skips multiple layers up to a point much deeper in the network. This method is very effective at training deep neural networks.
 
+![Semantic description of image](https://miro.medium.com/max/894/1*rbhjv7ZdAgXM2MlBUL5Mmw.png "Image Title")
 
+ResNets improve the performance on the training set, which is a prerequisite to do well on the validation and test sets. It is easy for a residual block to learn the identity function by adding skipped connections.
 
 
 
